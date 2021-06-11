@@ -5,6 +5,198 @@
 }
 
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
-    display:block;
+  display:block;
 }
 
+/*
+
+font-family: century-gothic, sans-serif;
+
+*/
+
+img.logo {
+    display: block;
+    max-width: 433px;
+    width: 61%;
+    margin: 29px auto 87px auto;
+}
+
+img.cat {
+    width: 28%;
+    max-width: 173px;
+    margin-left: 213px;
+    margin-top: -56px;
+}
+
+h2 {
+    text-align: center;
+    font: bolder 1.5rem "century-gothic", sans-serif;
+    color: #ffffff;
+		width: 100%;
+}
+
+section.topic {
+    width: 36%;
+    margin: 15px auto;
+    padding: 63px 48px;
+    background-color: #9e3897;
+    border-radius: 53px;
+    box-shadow: -3px 62px 34px -40px #7b0074;
+    border-left: 4px solid #df8dda;
+    border-right: 4px solid #e291ddf5;
+}
+
+
+main {
+    background-color: #ce7ac6;
+    height: 571px;
+    display: inline-block;
+    width: 100%;
+    margin-top: -2%;
+}
+
+footer {
+    background-color: #ce7ac6;
+}
+
+.container {
+    position: relative;
+    bottom: 9%;
+}
+
+.desktop-menu {
+	display: none;s
+}
+
+h4 {
+    text-align: center;
+    font: 0.9rem "century-gothic", sans-serif;
+    color: white;
+    margin-top: -175px 0 0 61px;
+    padding: 0 0 47px 0;
+}
+
+img.cat2 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+
+
+/* ******************************** HAMBURGER MENU STYLES END*************************** */
+
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; font-family: "century-gothic", sans-serif; width:100%; background:#ffffff;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
+
+
+/* ******************************** HAMBURGER MENU STYLES END *************************** */
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+
+	main {
+		height: 65vh;
+	}
+
+	.hamburger, .cross, .menu {
+		display: none;
+	}
+
+	.desktop-menu {
+		display: block;
+	}
+
+	.center {
+		display: flex;
+		width: 950px;
+		margin: 0 auto;
+	}
+
+	nav ul li {
+  display: inline;
+  padding: 15px;
+	}
+
+	nav ul li a {
+		text-decoration: none;
+	  font-size: bolder 1.5rem "century-gothic", sans-serif;
+	  font: bold 1.4rem "century-gothic", sans-serif;
+	  color: #b76aac;
+	}
+
+
+	nav ul {
+		display: inline-flex;
+	}
+
+	section.topic {
+	    width: 18%;
+	    margin: 0 auto;
+	    display: inline-flex;
+	}
+
+	.container {
+	    display: flex;
+	    max-width: 900px;
+	    margin: auto;
+	}
+
+	nav.desktop-menu {
+    margin: 87px 0 0 41px;
+	}
+
+	img.cat2 {
+    position: absolute;
+    display: inline-block;
+    top: 621px;
+    left: 535px;
+	}
+
+	section.topic:hover {
+		background-image: url(images/paw-print.png);
+	}
+}

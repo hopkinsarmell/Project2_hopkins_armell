@@ -5,7 +5,7 @@
 
 		<meta charset="utf-8">
 
-		<title>Catfo</title>
+		<title>Catdopolis</title>
 
 		<!-- Link to css style sheet -->
 		<link type="text/css" rel="stylesheet" href="styles.css" />
@@ -19,35 +19,55 @@
 		<!--[if lt IE 9]>
 			<script src="js/html5shiv-printshiv.min.js"></script>
 		<![endif]-->
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	</head>
 
 	<body>
 
-	<header>
-		<div>
-			<img src="images/catfo-logo.png" class="logo" alt="Catfo logo" />
-		</div>
+		<header>
+			<button class="hamburger">&#9776;</button>
+  		<button class="cross">&#735;</button>
 
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-        <li><a href="index.html">About</a></li>
-        <li><a href="index.html">Cat Basics</a></li>
-        <li><a href="index.html">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
+			<nav class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+	        <li><a href="index.html">About Catdopolis</a></li>
+	        <li><a href="index.html">Why adopt a cat?</a></li>
+	        <li><a href="index.html">Contact</a></li>
+				</ul>
+			</nav>
 
-	<section class="about">What is Catfo?</section>
-	<section class="cat-basics">Cat Basics</section>
-	<section class="contact">Ask us!</section>
+			<div class="center">
+				<img src="images/catdopolis-logo.png" class="logo" alt="Catdopolis logo" />
+				<nav class="desktop-menu">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="index.html">About</a></li>
+						<li><a href="index.html">Adopt Me</a></li>
+						<li><a href="index.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="cat-container">
+				<img src="images/cat.png" class="cat" alt="Gray cat" />
+			</div>
+		</header>
 
-	<footer>
-		<section class="subscribe">Subscribe for special updates from Catfo!</section>
-	</footer>
+		<main>
+			<div class="container">
+				<section class="topic"><h2>What is Catdopolis?</h2></section>
+				<section class="topic"><h2>Why adopt?</h2></section>
+				<section class="topic"><h2>Contact us!</h2></section>
+			</div>
+		</main>
+		<footer>
+			<div class="Kitty-container">
+				<img src="images/kitten.png" class="cat2" alt="Kitten laying down" />
+			</div>
+			<h4>Copyright 2021</h4>
+		</footer>
 
-
+	<script src="js/hamburger.js"></script>
 	</body>
 
 </html>
