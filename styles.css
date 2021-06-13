@@ -1,3 +1,7 @@
+
+
+/* ******************************** UNIVERSAL STYLING STARTS ******************************** */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -14,76 +18,128 @@ font-family: century-gothic, sans-serif;
 
 */
 
+
+
+
 img.logo {
-    display: block;
-    max-width: 433px;
-    width: 61%;
-    margin: 29px auto 87px auto;
+  display: block;
+  max-width: 334px;
+  width: 61%;
+  margin: 68px auto 75px auto;
 }
 
-img.cat {
-    width: 28%;
-    max-width: 173px;
-    margin-left: 213px;
-    margin-top: -56px;
+
+.purple-headings {
+  font: bolder 1.9rem "century-gothic", sans-serif;
+	color: #b76aac;
+  padding-left: 19px;
+  margin: 29px 0 9px 0;
 }
 
-h2 {
-    text-align: center;
-    font: bolder 1.5rem "century-gothic", sans-serif;
-    color: #ffffff;
-		width: 100%;
+.white-headings {
+  text-align: center;
+  font: bolder 1.5rem "century-gothic", sans-serif;
+  color: #ffffff;
+	width: 100%;
+}
+
+h3.skipper-heading {
+  font: bold italic 1.6rem "century-gothic", sans-serif;
+  color: #b76aac;
+  padding-bottom: 20px;
+}
+
+
+p {
+  font: 1.1rem "proxima-nova", sans-serif;
+  line-height: 1.5rem;
+  color: #866281;
+  padding: 14px 16px 23px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.click-me a{
+  background-color: #b76aac;
+  padding: 13px;
+  font: bolder 0.9rem "century-gothic";
+  border-radius: 11px;
+  color: white;
 }
 
 section.topic {
-    width: 36%;
-    margin: 15px auto;
-    padding: 63px 48px;
-    background-color: #9e3897;
-    border-radius: 53px;
-    box-shadow: -3px 62px 34px -40px #7b0074;
-    border-left: 4px solid #df8dda;
-    border-right: 4px solid #e291ddf5;
+  width: 36%;
+	min-width: 107px;
+  margin: 15px auto;
+  padding: 63px 48px;
+  background-color: #9e3897;
+  border-radius: 53px;
+  box-shadow: -3px 62px 34px -40px #7b0074;
+  border-left: 4px solid #df8dda;
+  border-right: 4px solid #e291ddf5;
 }
 
 
 main {
-    background-color: #ce7ac6;
-    height: 571px;
-    display: inline-block;
-    width: 100%;
-    margin-top: -2%;
+  background-color: #ce7ac6;
+  height: 571px;
+  display: inline-block;
+  width: 100%;
+  margin-top: -2%;
+}
+
+aside {
+  width: 83%;
+  max-width: 555px;
+  text-align: center;
+  margin: 57px auto;
+  background-color: #b76aac17;
+  border-radius: 28px;
+  padding: 49px 0;
 }
 
 footer {
-    background-color: #ce7ac6;
+  background-color: #e696df;
 }
 
 .container {
-    position: relative;
-    bottom: 9%;
+  position: relative;
+  bottom: 9%;
 }
 
 .desktop-menu {
-	display: none;s
+	display: none;
 }
 
-h4 {
-    text-align: center;
-    font: 0.9rem "century-gothic", sans-serif;
-    color: white;
-    margin-top: -175px 0 0 61px;
-    padding: 0 0 47px 0;
+.white-copyright {
+  text-align: center;
+  font: 0.9rem "century-gothic", sans-serif;
+  color: white;
+  padding: 0 0 47px 0;
 }
 
-img.cat2 {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 500px;
+figure {
+  border-radius: 52px;
+  padding-top: 13px
 }
 
+figcaption {
+  width: 84%;
+  font: bold 0.9rem "century-gothic";
+  color: #b76aac;
+  display: inline-block;
+  padding-left: 24px;
+}
 
+.bottom-figcaption {
+	padding-left: 0;
+}
+
+article {
+  padding-left: 18px;
+}
 
 /* ******************************** HAMBURGER MENU STYLES END*************************** */
 
@@ -119,21 +175,114 @@ img.cat2 {
 }
 .menu{z-index:1000000; font-weight:bold; font-size:0.8em; font-family: "century-gothic", sans-serif; width:100%; background:#ffffff;  position:absolute; text-align:center; font-size:12px;}
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
-.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li {display: block;   padding:25px 0 25px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#ffffff; padding:25px 0 25px 0; border-bottom:#dddddd 1px solid;}
 .menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
-.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu ul li a:hover {  color: #ce7bc6; text-decoration:none;}
 .menu a{text-decoration:none; color:#666;}
 .menu a:hover{text-decoration:none; color:#666;}
-
-
+.menu ul li a {
+  text-decoration: none;
+  margin: 0px;
+  color: #b76aac;
+  font: bold 1.1rem "century-gothic", sans-serif;
+}
 /* ******************************** HAMBURGER MENU STYLES END *************************** */
 
+/* ******************************** UNIVERSAL STYLING ENDS ******************************** */
+
+
+
+/* ******************************** HOME PAGE ONLY STYLING STARTS ******************************** */
+
+img.cat {
+  width: 28%;
+  max-width: 173px;
+  margin-left: 213px;
+  margin-top: -56px;
+}
+
+img.kitty {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+
+/* ******************************** HOME PAGE ONLY STYLING STARTS ******************************** */
+
+
+
+/* ******************************** ABOUT PAGE ONLY STYLING STARTS ******************************** */
+
+.about-main {
+	width:100%;
+	background-color: #ffffff;
+
+}
+
+.content-container {
+  max-width: 614px;
+  margin: 0 auto;
+}
+
+.about-footer {
+	background-color: white;
+}
+
+img.figure-skipper {
+  border-radius: 12px;
+  width: 80%;
+  max-width: 345px;
+  margin-bottom: 4px;
+}
+
+p.skipper-summary {
+  margin: 0 auto;
+  max-width: 341px;
+	font-size: 1rem;
+padding: 19px 25px 35px 25px;
+}
+
+img.about-image {
+  max-width: 450px;
+  width: 80%;
+  margin: -12px 0 5px 19px;
+  border: 8px solid #f9f2f8;
+  border-radius: 18px;
+}
+
+.purple-copyright {
+	text-align: center;
+	font: 0.9rem "century-gothic", sans-serif;
+	color: #b76aac;
+	padding: 0 0 47px 0;
+  margin-top: 300px
+}
+
+h1.note-heading {
+  font: 1.9rem "century-gothic", sans-serif;
+  color: #d07fc8;
+  text-align: center;
+  padding: 15px;
+}
+
+p.note-sub {
+	font: 1rem "century-gothic", sans-serif;
+	color: #b76aac;
+	text-align: center;
+	padding: 15px;
+}
+
+/* ******************************** ABOUT PAGE ONLY STYLING ENDS ******************************** */
 
 
 
 
 
+
+/* ******************************** 1024px QUERY STARTS *************************** */
 
 
 @media (min-width: 1024px) {
@@ -141,6 +290,11 @@ img.cat2 {
 	main {
 		height: 65vh;
 	}
+
+	aside {
+    width: 45%;
+    margin: -20px 59px 0 0;
+}
 
 	.hamburger, .cross, .menu {
 		display: none;
@@ -150,20 +304,24 @@ img.cat2 {
 		display: block;
 	}
 
+	.desktop-menu ul li a:hover {
+		font: bold italic 1.4rem "century-gothic", sans-serif;
+		color: #cc82c4;
+	}
+
 	.center {
 		display: flex;
-		width: 950px;
+		width: 870px;
 		margin: 0 auto;
 	}
 
 	nav ul li {
-  display: inline;
-  padding: 15px;
+  	display: inline;
+  	padding: 15px;
 	}
 
 	nav ul li a {
 		text-decoration: none;
-	  font-size: bolder 1.5rem "century-gothic", sans-serif;
 	  font: bold 1.4rem "century-gothic", sans-serif;
 	  color: #b76aac;
 	}
@@ -174,29 +332,47 @@ img.cat2 {
 	}
 
 	section.topic {
-	    width: 18%;
-	    margin: 0 auto;
-	    display: inline-flex;
+		width: 18%;
+	  margin: 0 auto;
+	  display: inline-flex;
+	}
+
+	section.topic a {
+		margin: 0 auto;
 	}
 
 	.container {
-	    display: flex;
-	    max-width: 900px;
-	    margin: auto;
+	   display: flex;
+	   max-width: 900px;
+		 margin: auto;
 	}
 
 	nav.desktop-menu {
-    margin: 87px 0 0 41px;
+		margin: 106px 0 0 -24px;
 	}
 
-	img.cat2 {
-    position: absolute;
-    display: inline-block;
-    top: 621px;
-    left: 535px;
+	img.kitty {
+  	position: absolute;
+  	display: inline-block;
+  	top: 621px;
+  	left: 535px;
 	}
 
 	section.topic:hover {
 		background-image: url(images/paw-print.png);
 	}
+
+	.flex {
+    display: flex;
+    width: 1027px;
+    margin: 0 auto;
+    margin-top: 36px;
+	}
+
+	.purple-copyright {
+    margin-top: 499px;
+	}
+
 }
+
+	/* ******************************** 1024px QUERY ENDS *************************** */
