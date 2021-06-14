@@ -373,6 +373,9 @@ p.note-sub {
     margin-top: 499px;
 	}
 
+	footer {
+		background-color: #ce7ac6;
+	}
 }
 
 	/* ******************************** 1024px QUERY ENDS *************************** */
