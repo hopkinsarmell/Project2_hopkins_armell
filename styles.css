@@ -72,7 +72,7 @@ a {
 section.topic {
   width: 36%;
 	min-width: 107px;
-  margin: 15px auto;
+  margin: 37px auto;
   padding: 63px 48px;
   background-color: #9e3897;
   border-radius: 53px;
@@ -84,7 +84,7 @@ section.topic {
 
 main {
   background-color: #ce7ac6;
-  height: 571px;
+  height: 640px;
   display: inline-block;
   width: 100%;
   margin-top: -2%;
@@ -294,7 +294,18 @@ p.note-sub {
 	aside {
     width: 45%;
     margin: -20px 59px 0 0;
-}
+	}
+
+	img.logo {
+    display: block;
+    max-width: 334px;
+    width: 72%;
+    margin: 85px auto 75px auto;
+	}
+
+	.cat-container {
+    padding-top: 30px;
+	}
 
 	.hamburger, .cross, .menu {
 		display: none;
