@@ -278,8 +278,64 @@ p.note-sub {
 /* ******************************** ABOUT PAGE ONLY STYLING ENDS ******************************** */
 
 
+/* ******************************** ADOPT PAGE ONLY STYLING STARTS ******************************** */
+
+.adopt-main {
+    background: #ffffff;
+    text-align: center;
+		margin-top: 20px;
+}
+
+section.adopt-section {
+    max-width: 350px;
+    margin: 29px 25px;
+    background: #f9f2f8;
+    padding: 1% 0;
+    border-radius: 28px;
+    display: inline-block;
+    text-align: center;
+}
+
+p.info {
+    padding: 0 0 10px 0;
+    font-size: 1rem;
+}
 
 
+img.adopt-image {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+		border-radius: 12px;
+}
+
+.cat-names {
+    font: bolder 1.9rem "century-gothic", sans-serif;
+    color: #b76aac;
+    margin: 19px 0 19px 16px;
+    text-align: center;
+}
+
+
+ul.info-list {
+    padding: 9%5%;
+    width: 88%;
+    text-align: left;
+    list-style: none;
+    margin: 0 auto;
+    width: 75%;
+}
+
+h3.category {
+    font: bolder 1rem "century-gothic", sans-serif;
+    color: #b76aac;
+}
+
+.adopt-main {
+	background: #ffffff;
+}
+
+/* ******************************** ADOPT PAGE ONLY STYLING STARTS ******************************** */
 
 
 /* ******************************** 1024px QUERY STARTS *************************** */
@@ -303,9 +359,6 @@ p.note-sub {
     margin: 85px auto 75px auto;
 	}
 
-	.cat-container {
-    padding-top: 30px;
-	}
 
 	.hamburger, .cross, .menu {
 		display: none;
@@ -324,6 +377,7 @@ p.note-sub {
 		display: flex;
 		width: 870px;
 		margin: 0 auto;
+		padding-bottom: 20px;
 	}
 
 	nav ul li {
@@ -373,7 +427,7 @@ p.note-sub {
 		background-image: url(images/paw-print.png);
 	}
 
-	.flex {
+	.about-flex {
     display: flex;
     width: 1027px;
     margin: 0 auto;
