@@ -265,14 +265,14 @@ h1.note-heading {
   font: 1.9rem "century-gothic", sans-serif;
   color: #d07fc8;
   text-align: center;
-  padding: 15px;
 }
 
 p.note-sub {
-	font: 1rem "century-gothic", sans-serif;
-	color: #b76aac;
-	text-align: center;
-	padding: 15px;
+  font: 1rem "century-gothic", sans-serif;
+  color: #b76aac;
+  text-align: center;
+  max-width: 600px;
+	margin: 0 auto;
 }
 
 /* ******************************** ABOUT PAGE ONLY STYLING ENDS ******************************** */
@@ -283,7 +283,10 @@ p.note-sub {
 .adopt-main {
     background: #ffffff;
     text-align: center;
-		margin-top: 20px;
+		display: block;
+		max-width: 1500px;
+		margin: 0 auto;
+		height: 100%;
 }
 
 section.adopt-section {
@@ -335,7 +338,52 @@ h3.category {
 	background: #ffffff;
 }
 
-/* ******************************** ADOPT PAGE ONLY STYLING STARTS ******************************** */
+/* ******************************** ADOPT PAGE ONLY STYLING ENDS ******************************** */
+
+/* ******************************** CONTACT PAGE ONLY STYLING STARTS ******************************** */
+
+section.contact-form {
+    max-width: 600px;
+    width: 80%;
+    margin: 29px auto;
+    background: #f9f2f8;
+    padding: 1% 0;
+    border-radius: 28px;
+}
+
+p.contact {
+	padding: 0;
+}
+
+input, textarea {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 2%;
+    width: 79%;
+		border-radius: 7px;
+		margin-top: 9px;
+}
+
+.input-section {
+    padding-top: 33px;
+}
+
+.label_input_wrap {
+    font: bold italic 1rem "century-gothic", sans-serif;
+    color: #b76aac;
+    display: flex;
+    width: 81%;
+    margin: 0 auto;
+}
+
+input[type="submit"] {
+    background: #d07fc8;
+    color: white;
+    font: .9rem "century-gothic", sans-serif;
+    margin: 30px auto;
+}
+
+/* ******************************** CONTACT PAGE ONLY STYLING ENDS ******************************** */
 
 
 /* ******************************** 1024px QUERY STARTS *************************** */

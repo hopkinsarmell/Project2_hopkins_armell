@@ -57,10 +57,43 @@
 
 		<main class="about-main">
 
-		<h1 class="note-heading">Page Coming Soon</h1>
+			<h1 class="note-heading">Contact Us</h1>
+			<p class="note-sub">thank you for visiting my site! To contact me, please use the form below. I look forward to hearing from you.</p>
 
-		 <p class="note-sub">Please return back to the home or about page.</p>
+			<section class="contact-form">
+		 		<form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+		 			<div class="first-name input-section">
+			 			<label for="firstname" class="label_input_wrap require">First Name:
+			 			</label>
+			 			<input type="text" name="req_firstname" id="firstname" placeholder="ex. John" />
+		 		 	</div>
 
+		 		 	<div class="last-name input-section">
+			 			<label for="lastname" class="label_input_wrap">Last Name:
+			 			</label>
+			 			<input type="text" name="lastname" id="lastname" placeholder="ex. Smith" />
+		 		 	</div>
+
+		 		 	<div class="email input-section">
+				 		<label for="email" class="label_input_wrap require">Email:</label>
+				 		<input type="email" name="req_email" id="email" placeholder="jsmith@example.com"/>
+		 		 	</div>
+
+		 		 	<div class="telephone input-section">
+		 				<label for="telephone" class="label_input_wrap">Telephone:</label>
+		 				<input type="tel" name="telephone" id="telephone" placeholder="555-555-555" />
+		 		 	</div>
+
+		 		 	<div class="comments input-section">
+		 				<label for="comments" class="label_input_wrap require">Message:</label>
+		 				<textarea name="comments" id="comments" cols="47" rows="10" placeholder="Your Message Goes Here"></textarea>
+		 		 	</div>
+
+		 		 	<div class="submit">
+		 				<input type="submit" value="Send Message"/>
+		 			</div>
+			  </form>
+			 </section>
 			</main>
 
 
