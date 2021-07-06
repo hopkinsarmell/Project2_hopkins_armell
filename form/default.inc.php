@@ -5,7 +5,7 @@
 
 		<meta charset="utf-8">
 
-		<title>Catdopolis</title>
+		<title>Catdopolis | Contact </title>
 
 		<!-- Link to css style sheet -->
 		<link type="text/css" rel="stylesheet" href="css/styles.css" />
@@ -16,10 +16,11 @@
 		<link rel="stylesheet" href="https://use.typekit.net/abi1wrt.css">
 
 
+
 		<!--[if lt IE 9]>
 			<script src="js/html5shiv-printshiv.min.js"></script>
 		<![endif]-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	</head>
 
 	<body>
@@ -50,23 +51,21 @@
 				</nav>
 			</div>
 			<div class="cat-container">
-				<img src="images/cat.png" class="cat" alt="Gray cat">
 			</div>
 
 		</header>
 
-		<main>
-			<div class="container">
-				<section class="topic"><a href="about.html"><h2 class="white-headings">What is Catdopolis?</h2></a></section>
-				<section class="topic"><a href="adopt.html"><h2 class="white-headings">Adopt now</h2></a></section>
-				<section class="topic"><a href="contact.html"><h2 class="white-headings">Contact us!</h2></a></section>
-			</div>
-		</main>
-		<footer>
-			<div class="Kitty-container">
-				<img src="images/kitten.png" class="kitty" alt="Kitten laying down">
-			</div>
-			<h4 class="white-copyright">Copyright 2021</h4>
+		<main class="about-main">
+
+			<h1 class="note-heading">Sorry, something went wrong with your submission.</h1>
+			<p class="note-sub">Please, try again.</p>
+
+
+			</main>
+
+
+		<footer class="about-footer">
+			<h4 class="purple-copyright2">Copyright 2021</h4>
 		</footer>
 
 	<script src="js/hamburger.js"></script>
