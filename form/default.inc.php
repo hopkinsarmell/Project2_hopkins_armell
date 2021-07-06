@@ -55,9 +55,9 @@
 
 		</header>
 
-		<main class="about-main">
+		<main class="form-main">
 
-			<h1 class="note-heading">Sorry, something went wrong with your submission.</h1>
+			<h1 class="note-heading">Something went wrong.</h1>
 			<p class="note-sub">Please, try again.</p>
 
 

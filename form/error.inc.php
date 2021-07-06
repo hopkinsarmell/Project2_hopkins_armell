@@ -55,12 +55,12 @@
 
 		</header>
 
-		<main class="about-main">
+		<main class="form-main">
 
-			<h1 class="note-heading">Sorry, something went wrong with your submission.</h1>
+			<h1 class="note-heading">Something went wrong.</h1>
 			<p class="note-sub">Please, try again.</p>
 
-			<p class="note-sub">Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
+			<p class="note-sub">Please hit <a class="form-a" href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
 
 			<ul>
 			<?php
@@ -70,7 +70,7 @@
 			?>
 			</ul>
 
-			<p class="note-sub"><strong><a href="#" onClick="history.go(-1)">Back to form</a></strong></p>
+			<p class="note-sub"><strong><a class="form-a" href="#" onClick="history.go(-1)">Back to form</a></strong></p>
 
 			</main>
 
