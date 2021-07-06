@@ -59,7 +59,7 @@
 
       <h1 class="note-heading">Thank you for your enquiry</h1>
       <p class="note-sub">Thanks for your interest. we have received your message, and we will be in touch shortly.</p>
-      <p class="note-sub">Form processor provided by <a class="form-a" href="http://www.inventpartners.com">Invent Partners web design York</a>.</p>
+      <p class="note-sub">Form processor provided by <a href="http://www.inventpartners.com">Invent Partners web design York</a>.</p>
 
 
 			</main>

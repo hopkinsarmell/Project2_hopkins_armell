@@ -57,44 +57,72 @@
 
 		<main class="about-main">
 
-			<h1 class="note-heading">Contact Us</h1>
-			<p class="note-sub">Please send us your questions using the form below. Thank you!</p>
+				<h1 class="note-heading">Contact Us</h1>
+				<p class="note-sub">Please send us your questions using the form below. Thank you!</p>
 
-			<section class="contact-form">
-		 		<form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
-		 			<div class="first-name input-section">
-			 			<label for="firstname" class="label_input_wrap require">First Name:
-			 			</label>
-			 			<input type="text" name="req_firstname" id="firstname" placeholder="ex. John" />
-		 		 	</div>
+				<section class="contact-form">
+			 		<form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+			 			<div class="first-name input-section">
+				 			<label for="firstname" class="label_input_wrap require">First Name:
+				 			</label>
+				 			<input type="text" name="req_firstname" id="firstname" placeholder="ex. John" />
+			 		 	</div>
 
-		 		 	<div class="last-name input-section">
-			 			<label for="lastname" class="label_input_wrap">Last Name:
-			 			</label>
-			 			<input type="text" name="lastname" id="lastname" placeholder="ex. Smith" />
-		 		 	</div>
+			 		 	<div class="last-name input-section">
+				 			<label for="lastname" class="label_input_wrap">Last Name:
+				 			</label>
+				 			<input type="text" name="lastname" id="lastname" placeholder="ex. Smith" />
+			 		 	</div>
 
-		 		 	<div class="email input-section">
-				 		<label for="email" class="label_input_wrap require">Email:</label>
-				 		<input type="email" name="req_email" id="email" placeholder="jsmith@example.com"/>
-		 		 	</div>
+			 		 	<div class="email input-section">
+					 		<label for="email" class="label_input_wrap require">Email:</label>
+					 		<input type="email" name="req_email" id="email" placeholder="jsmith@example.com"/>
+			 		 	</div>
 
-		 		 	<div class="telephone input-section">
-		 				<label for="telephone" class="label_input_wrap">Telephone:</label>
-		 				<input type="tel" name="telephone" id="telephone" placeholder="555-555-555" />
-		 		 	</div>
+			 		 	<div class="telephone input-section">
+			 				<label for="telephone" class="label_input_wrap">Telephone:</label>
+			 				<input type="tel" name="telephone" id="telephone" placeholder="555-555-555" />
+			 		 	</div>
 
-		 		 	<div class="comments input-section">
-		 				<label for="comments" class="label_input_wrap require">Message:</label>
-		 				<textarea name="comments" id="comments" cols="47" rows="10" placeholder="Your Message Goes Here"></textarea>
-		 		 	</div>
+			 		 	<div class="comments input-section">
+			 				<label for="comments" class="label_input_wrap require">Message:</label>
+			 				<textarea name="comments" id="comments" cols="47" rows="10" placeholder="Your Message Goes Here"></textarea>
+			 		 	</div>
 
-		 		 	<div class="submit">
-		 				<input type="submit" value="Send Message"/>
-		 			</div>
-			  </form>
-			 </section>
-			</main>
+			 		 	<div class="submit">
+			 				<input type="submit" value="Send Message"/>
+			 			</div>
+
+						<section class="rate">
+
+							<h1 class="rate-heading">How was your experience on Catdopolis?</h1>
+							<p class="rate-sub">Please let us know by clicking the stars below. We appreciate your feedback.</p>
+
+							<div class="kart">
+
+
+
+								<div class="oylama">
+									<img draggable="false" id="bir" src="https://cdn3.iconfinder.com/data/icons/sympletts-free-sampler/128/star-128.png" class="yildizlar">
+
+									<img draggable="false" id="iki" src="https://cdn3.iconfinder.com/data/icons/sympletts-free-sampler/128/star-128.png" class="yildizlar">
+
+									<img draggable="false" id="uc" src="https://cdn3.iconfinder.com/data/icons/sympletts-free-sampler/128/star-128.png" class="yildizlar">
+
+									<img draggable="false" id="dort" src="https://cdn3.iconfinder.com/data/icons/sympletts-free-sampler/128/star-128.png" class="yildizlar">
+
+									<img draggable="false" id="bes" src="https://cdn3.iconfinder.com/data/icons/sympletts-free-sampler/128/star-128.png" class="yildizlar">
+
+									<div class="kutu">
+										<img draggable="false" class="emoji" src="">
+									</div>
+								</div>
+							</div>
+						</section>
+				  </form>
+				 </section>
+				</main>
+
 
 
 		<footer class="about-footer">
@@ -102,6 +130,7 @@
 		</footer>
 
 	<script src="js/hamburger.js"></script>
+	<script src="js/rating.js"></script>
 	</body>
 
 </html>
