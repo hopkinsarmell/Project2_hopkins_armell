@@ -14,7 +14,7 @@
 
 		<!-- FAVIcon -->
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-		
+
 		<!-- Link to Adobe fonts -->
 		<link rel="stylesheet" href="https://use.typekit.net/abi1wrt.css">
 
@@ -43,7 +43,7 @@
 			</nav>
 
 			<div class="center">
-				<a href="index.html"><img src="images/catdopolis-logo.png" class="logo" alt="Catdopolis logo"></a>
+				<a href="index.html"><img src="images/catdopolis-logo.png" class="logo" alt="Catdopolis Logo"></a>
 				<nav class="desktop-menu">
 					<ul>
 						<li><a href="index.html">Home</a></li>
