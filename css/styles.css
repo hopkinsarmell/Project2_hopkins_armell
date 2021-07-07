@@ -31,10 +31,10 @@ img.logo {
 
 .purple-headings {
   font: bolder 1.9rem "century-gothic", sans-serif;
-	color: #b76aac;
-  padding-left: 19px;
+  color: #b76aac;
   margin: 29px 0 9px 0;
 }
+
 
 .white-headings {
   text-align: center;
@@ -42,6 +42,7 @@ img.logo {
   color: #ffffff;
 	width: 100%;
 }
+
 
 h3.pursia-heading {
   font: bold italic 1.6rem "century-gothic", sans-serif;
@@ -51,10 +52,10 @@ h3.pursia-heading {
 
 
 p {
-  font: 1.1rem "proxima-nova", sans-serif;
+  font: 1rem "proxima-nova", sans-serif;
   line-height: 1.5rem;
   color: #866281;
-  padding: 14px 3% 3px 3%;
+  padding: 14px 0 3px 0;
 }
 
 
@@ -63,9 +64,11 @@ a {
   color: #ef66a5;
 }
 
+
 .no-deco {
 	text-decoration: none;
 }
+
 
 .form-main {
 	width: 100%;
@@ -82,6 +85,7 @@ a {
   color: white;
 	text-decoration: none;
 }
+
 
 section.topic {
   width: 36%;
@@ -104,6 +108,7 @@ main {
   margin-top: -2%;
 }
 
+
 aside {
   width: 83%;
   max-width: 555px;
@@ -114,18 +119,22 @@ aside {
   padding: 49px 0;
 }
 
+
 footer {
   background-color: #e696df;
 }
+
 
 .container {
   position: relative;
   bottom: 9%;
 }
 
+
 .desktop-menu {
 	display: none;
 }
+
 
 .white-copyright {
   text-align: center;
@@ -134,26 +143,31 @@ footer {
   padding: 0 0 47px 0;
 }
 
+
 figure {
   border-radius: 52px;
   padding-top: 13px
 }
 
+
 figcaption {
-  width: 84%;
-  font: bold 0.9rem "century-gothic";
-  color: #b76aac;
-  display: inline-block;
-  padding-left: 24px;
+    width: 100%;
+    font: bold 0.9rem "century-gothic";
+    color: #b76aac;
+    display: inline-block;
+    padding: 12px 0 0 2%;
 }
+
 
 .bottom-figcaption {
 	padding-left: 0;
 }
 
+
 article {
-  padding-left: 18px;
+  padding: 0 27px;
 }
+
 
 /* ******************************** HAMBURGER MENU STYLES END*************************** */
 
@@ -207,6 +221,8 @@ article {
 
 
 
+
+
 /* ******************************** HOME PAGE ONLY STYLING STARTS ******************************** */
 
 img.cat {
@@ -215,6 +231,7 @@ img.cat {
   margin-left: 213px;
   margin-top: -56px;
 }
+
 
 img.kitty {
   display: block;
@@ -236,14 +253,17 @@ img.kitty {
 
 }
 
+
 .content-container {
   max-width: 614px;
   margin: 0 auto;
 }
 
+
 .about-footer {
 	background-color: white;
 }
+
 
 img.figure-pursia {
   border-radius: 12px;
@@ -252,6 +272,7 @@ img.figure-pursia {
   margin-bottom: 4px;
 }
 
+
 p.pursia-summary {
   margin: 0 auto;
   max-width: 341px;
@@ -259,13 +280,15 @@ p.pursia-summary {
   padding: 19px 9% 35px 9%;
 }
 
+
 img.about-image {
   max-width: 450px;
-  width: 80%;
-  margin: -12px 0 5px 19px;
-  border: 8px solid #f9f2f8;
+  width: 100%;
+  border: 5px solid #f9f2f8;
   border-radius: 18px;
+  text-align: center;
 }
+
 
 .purple-copyright1 {
 	text-align: center;
@@ -275,11 +298,13 @@ img.about-image {
   margin-top: 300px
 }
 
+
 h1.note-heading {
   font: 1.9rem "century-gothic", sans-serif;
   color: #d07fc8;
   text-align: center;
 }
+
 
 h2.note-sub {
   font: 1rem "century-gothic", sans-serif;
@@ -292,14 +317,21 @@ h2.note-sub {
 	text-align: center;
 }
 
+
 p.note-sub {
+  font: 1.1rem "proxima-nova", sans-serif;
+  line-height: 1.5rem;
+  color: #ce7bc6;
+  padding: 14px 0 3px 0;
 	text-align: center;
 }
+
 
 .require::after {
   content: '*';
   color: #f39adb;
 }
+
 
 /* ******************************** ABOUT PAGE ONLY STYLING ENDS ******************************** */
 
@@ -315,6 +347,7 @@ p.note-sub {
 	height: 100%;
 }
 
+
 article.adopt-article {
   max-width: 350px;
   margin: 29px 25px;
@@ -325,18 +358,20 @@ article.adopt-article {
   text-align: center;
 }
 
+
 p.info {
   padding: 0 0 10px 0;
   font-size: 1rem;
 }
 
 
+
 img.adopt-image {
-  width: 75%;
-  display: block;
-  margin: 0 auto;
+  width: 70%;
+	height: 70%;
 	border-radius: 12px;
 }
+
 
 .cat-names {
   font: bolder 1.9rem "century-gothic", sans-serif;
@@ -355,14 +390,17 @@ ul.info-list {
   width: 75%;
 }
 
+
 h3.category {
   font: bolder 1rem "century-gothic", sans-serif;
   color: #b76aac;
 }
 
+
 .adopt-main {
 	background: #ffffff;
 }
+
 
 .purple-copyright2 {
 	text-align: center;
@@ -373,10 +411,9 @@ h3.category {
 }
 
 
-
-
-
 /* ******************************** ADOPT PAGE ONLY STYLING ENDS ******************************** */
+
+
 
 /* ******************************** CONTACT PAGE ONLY STYLING STARTS ******************************** */
 
@@ -389,9 +426,11 @@ section.contact-form {
   border-radius: 28px;
 }
 
+
 p.contact {
 	padding: 0;
 }
+
 
 input, textarea {
   display: block;
@@ -402,9 +441,11 @@ input, textarea {
 	margin-top: 9px;
 }
 
+
 .input-section {
   padding-top: 33px;
 }
+
 
 .label_input_wrap {
   font: bold italic 1rem "century-gothic", sans-serif;
@@ -414,19 +455,23 @@ input, textarea {
   margin: 0 auto;
 }
 
+
 .submit {
 	margin-top: 32px;
 }
+
 
 .submit input{
   background: #d07fc8;
   color: white;
 }
 
+
 .submit input:hover{
   background: #ce98c8;
   color: white;
 }
+
 
 input {
 	-webkit-appearance: none;
@@ -434,10 +479,12 @@ input {
 	appearance: none;
 }
 
+
 aside.rate {
 	max-width: 440px;
 	background-color: #ffffff;
 }
+
 
 h2.rate-heading {
   font: 1.78em "century-gothic", sans-serif;
@@ -447,6 +494,7 @@ h2.rate-heading {
   text-align: center;
 }
 
+
 p.rate-sub {
   font: 1rem "century-gothic", sans-serif;
   color: #b76aac;
@@ -455,7 +503,10 @@ p.rate-sub {
   margin: 0 auto;
 }
 
-.kart {
+
+/* ******************************** CONTACT RATING CODE BEGINS ******************************** */
+
+.rate-container {
   width: 90%;
   max-width: 400px;
   background-color: #f9f2f8;
@@ -465,20 +516,20 @@ p.rate-sub {
   text-align: center;
 }
 
-.kutu{
+.emoji-container{
   width:100%;
   height:150px;
   margin:auto;
   background-color: #f9f2f8;
 }
 
-.oylama {
+.stars-container {
   height: 100%;
   background-color: #f9f2f8;
   padding: 20px;
 }
 
-.yildizlar {
+.stars {
   width: 34%;
   width: 34px;
   margin: 0 auto;
@@ -497,6 +548,8 @@ p.rate-sub {
   transition-property:transform;
   transition-duration:0.5s;
 }
+/* ******************************* CONTACT RATING CODE ENDS ******************************** */
+
 
 /* ******************************** CONTACT PAGE ONLY STYLING ENDS ******************************** */
 
@@ -519,7 +572,7 @@ p.rate-sub {
     display: block;
     max-width: 334px;
     width: 72%;
-    margin: 85px auto 75px auto;
+    margin: 87px auto 75px auto;
 	}
 
 

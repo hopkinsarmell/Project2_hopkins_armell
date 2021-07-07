@@ -12,6 +12,9 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<!-- FAVIcon -->
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		
 		<!-- Link to Adobe fonts -->
 		<link rel="stylesheet" href="https://use.typekit.net/abi1wrt.css">
 
